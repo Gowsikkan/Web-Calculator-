@@ -1,4 +1,4 @@
-# Web-Calculator-
+# Web-Calculator
 A Web Calculator using Flask framework for different Math Calculation
 Here this webpage contains 
 ->Ordinary Calculator 
