@@ -1,0 +1,114 @@
+#btn{
+    font-family: inherit;
+    margin-top: 0px;
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(120deg,#ff6b6b, #5f27cd);
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn:hover{
+    box-shadow: 1px 1px 10px #341f97;
+}
+/* add css code*/
+body{
+    background-color:unset;
+
+}
+h1{
+    font-size: 40px;
+    font-family: monospace;
+    font-style:initial;
+
+}
+table{
+    margin: auto;
+    background-color: #474a4b;
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 1px 1px 20px #ecdd01;
+    margin-top:50px;
+}
+#calculator{
+    position: absolute;
+    max-width: 80%;
+    left: 58%;
+    top: 10%;
+}
+input{
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
+    border: 0;
+    color: #495069;
+    background-color: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+/* add input hover effectg */
+input:hover{
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #8f5fda;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #644294;
+}
+#answer{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    background-color: #1d1f1c;
+    float: left;
+}
+/* answer hover effect */
+#answer:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: center;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+    background-color: #a7acac;
+}
+
+.operator{
+    background-color: #f1ff92;
+    position: relative;
+}
+
+/* hover */
+.operator:hover{
+    background-color: #e7f56b;
+    box-shadow: 0 4px #b7c259;
+}
+#clear{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+    margin-bottom: 15px;
+}
+/* hover */
+#clear:hover{
+    float: left;
+    display: block;
+    background-color: #f297a0;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #cc7f86;
+}
+
+      
